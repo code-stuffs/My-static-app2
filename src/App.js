@@ -1,11 +1,11 @@
 import React from 'react';
 
 function App() {
-  const value = 'World';
+  const value = 'People';
   return <div>
     <h1>Hello {value}</h1>
-    <h2>This is my React Static Web Application </h2>
-    <p>Hi , My name is Yashasvi Gupta . I study B-tech in Computer science majoring in AI/ML .<br></br> I enjoy music </p>
+    <h2>Welcome to my static Web Application using React! </h2>
+    <p>Hello, Myself Saniya Chivate currently enrolled in btech cs branch and it is exiting.</p>
     </div>;
 }
 
