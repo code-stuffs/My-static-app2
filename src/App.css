@@ -1,9 +1,27 @@
-.h2{
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  #root {
+    height: 100%;
+  }
+  
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    color: red;
-}
-
-.h1{
-    text-align: center;
-    color: blue;
-}
+    height: 100%;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  h1, h2, p {
+    margin: 10px 0;
+  }
+  
